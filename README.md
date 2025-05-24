@@ -55,22 +55,22 @@ The dataset contains hourly bike rental records with features including:
 ---
 
 ## Insights
--Time features (hour of day, weekend/weekday) strongly influence rental patterns.
--Weather conditions (temperature, humidity, windspeed) impact user behavior.
--Seasonal effects captured via one-hot encoding improve model accuracy.
--Feature importance analysis from XGBoost reveals the top drivers of rental demand.
+- Time features (hour of day, weekend/weekday) strongly influence rental patterns.
+- Weather conditions (temperature, humidity, windspeed) impact user behavior.
+- Seasonal effects captured via one-hot encoding improve model accuracy.
+- Feature importance analysis from XGBoost reveals the top drivers of rental demand.
 
 ---
 
 ## Future Work
--Incorporate lagged demand features to capture temporal dependencies.
--Explore advanced models like LightGBM or CatBoost.
--Use SHAP values for model explainability.
--Experiment with time-series cross-validation to better simulate real-world forecasting.
+- Incorporate lagged demand features to capture temporal dependencies.
+- Explore advanced models like LightGBM or CatBoost.
+- Use SHAP values for model explainability.
+- Experiment with time-series cross-validation to better simulate real-world forecasting.
 
 ---
 
 ## References
--Dataset source: https://www.kaggle.com/datasets/saurabhshahane/seoul-bike-sharing-demand-prediction
--XGBoost documentation: https://xgboost.readthedocs.io/
--Scikit-learn documentation: https://scikit-learn.org/stable/
+- Dataset source: https://www.kaggle.com/datasets/saurabhshahane/seoul-bike-sharing-demand-prediction
+- XGBoost documentation: https://xgboost.readthedocs.io/
+- Scikit-learn documentation: https://scikit-learn.org/stable/
